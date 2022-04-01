@@ -1,6 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Tik-Tak-Toe is a two-player turn-based thinking game whose goal is to be the first to create an alignment
 
@@ -10,7 +7,7 @@ Please don't hesitate to open an issue or pull request. You can also send me a m
 
 
 ## Available Scripts
-
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 In the project directory, you can run:
 
 ### `npm start`
