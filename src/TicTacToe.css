@@ -3,35 +3,61 @@ body {
   margin: 20px;
 }
 
-
-
-
-.status {
-  margin-bottom: 10px;
-}
-
 .square {
-  background: rgb(235, 31, 31);
-  border: 1px solid #999;
+  background: rgba(240, 148, 12, 0.89);
+  border: 2px solid rgba(165, 93, 11, 0.808);
   float: left;
   font-size: 24px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height:50px;
+  height: 50px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 50px;
+  color: white;
+  cursor: pointer;
 }
 
+.square:hover{
+  background: rgb(175, 110, 12);
+}
 
+.game{
+ text-align:  center;
 
-.game {
+}
+
+.game-board {
   display: flex;
   flex-direction: row;
+  margin-left:25%;
+  margin-top: 30px;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.button1 {
+  background-color:rgba(230, 110, 13, 0.89); 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.button1:hover{
+  background-color: white; 
+  color: black; 
+  border: 3px solid rgba(238, 132, 11, 0.89);
 }

@@ -52,7 +52,14 @@ class Game extends React.Component {
     });
   }
 
-
+   delete = () =>{
+     
+     this.setState( {history: [{squares: Array(9).fill(null)}],
+     xIsNext: true,
+     stepNumber: 0,
+     }) ;
+   
+  }
   
 
   render() {
@@ -62,7 +69,11 @@ class Game extends React.Component {
     let status;
     if(winner){
       status = 'Winner: ' + winner;
-    }else{
+    }else if (this.state.stepNumber == 9){
+      status = 'Game Over';
+      
+    }
+    else{
       status = 'Next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
     
@@ -72,11 +83,11 @@ class Game extends React.Component {
         <div className="game-board">
           <Board squares={current.squares} onClick={(i)=>this.handleClick(i)}/>
         </div>
-        <div className="game-info">
-          <div>{ status }</div>
-          
-        </div>
-      </div>
+       <div className="game-info">
+         <div>{ status }</div>
+         <button className = "button1" onClick={this.delete}> Replay </button>  
+       </div>
+     </div>
     );
   }
 }

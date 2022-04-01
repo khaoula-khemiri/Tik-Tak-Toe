@@ -1,10 +1,17 @@
-.App {
-  text-align: center;
+.app{
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height:  400px;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  padding:   20px;
+  box-shadow: 5px 5px 5px 5px rgba(58, 56, 56, 0.5)  ;
+  
+  
 }
-
-
-.App-intro {
-  font-size: large;
- 
-}
-
+ .title{
+   text-align: center;
+  font-size: 30px;
+  color: rgb(221, 166, 14);
+ }
