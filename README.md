@@ -1,4 +1,4 @@
-
+# App Description
 Tik-Tak-Toe is a two-player turn-based thinking game whose goal is to be the first to create an alignment
 
 Please don't hesitate to open an issue or pull request. You can also send me a message on [Twitter](https://twitter.com/KhaoulaKhemiri).
